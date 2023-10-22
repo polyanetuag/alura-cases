@@ -3,8 +3,8 @@ import Link from '../../components/Link'
 import { theme } from '../../theme/theme';
 import { Image, Box, Text, Icon, Input, Button } from '../../theme/components';
 
-const LOGO_ALURA_URL = 'https://fakeimg.pl/94x44';
-const SIDE_IMAGE_URL = 'https://fakeimg.pl/2878x1640'
+const LOGO_ALURA_URL = '/images/alura-logo.svg';
+const SIDE_IMAGE_URL = '/images/alura-cases.png'
 
 function SideImage() {
   return (
@@ -71,18 +71,17 @@ function SideImage() {
           <Image
             styleSheet={{
               boxShadow: `0 5px 16px 0px ${theme.colors.neutral[999]}73`,
-              borderRadius: {
-                md: theme.space.x4,
-              },
-              maxWidth: {
-                lg: "none",
-              },
-              width: {
-                lg: "auto",
-              },
-              height: {
-                lg: theme.space["x1/1"],
-              },
+              width: '800px',
+              borderRadius: theme.space.x2,
+              // maxWidth: {
+              //   lg: "none",
+              // },
+              // width: {
+              //   lg: "auto",
+              // },
+              height: 
+                theme.space["x1/1"],
+              
             }}
             src={SIDE_IMAGE_URL}
             alt="Treinamento com a roberta arcoverde no alura cases, falando sobre o stackoverflow"
@@ -109,6 +108,12 @@ export default function HomeScreen() {
             position: {
               lg: 'relative',
             },
+            display: 'flex',
+            flexDirection: {
+              lg: 'column',
+            },
+
+            
             paddingTop: {
               xs: theme.space.x6,
               sm: theme.space.x12,
