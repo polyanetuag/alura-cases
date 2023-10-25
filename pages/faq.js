@@ -20,8 +20,12 @@ export default function FaqPage() {
       <h1>Alura Cases - Página de perguntas FAQ</h1>
       <Link href="/">Ir para a Home</Link>
       <ul>
-        {faq.map(({ question }) => (
-          <li>{question}</li>
+        {faq.map(({ answer, question }) => (
+          <article>
+            <h2>{question}</h2>
+            <p>{answer}</p>
+          </article>
+          
         ))}
       </ul>
     </div>
