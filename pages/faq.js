@@ -1,5 +1,6 @@
 import Link from "../src/components/Link";
 // import { useState, useEffect } from "react";
+import Head from 'next/head'
 
 export async function getStaticProps() {
   const FAQ_API_URL =
@@ -25,6 +26,9 @@ export default function FaqPage({faq}) {
   // useEffect(() => {}, []);
   return (
     <div>
+       <Head>
+        <title>FAQ - Alura Cases Campanha</title>
+      </Head>
       <h1>Alura Cases - Página de perguntas FAQ</h1>
       <Link href="/">Ir para a Home</Link>
       <ul>
