@@ -5,9 +5,12 @@
 </div>
 
 ## 📚 Sobre
+O projeto consiste em uma campanha para divulgação de um curso na plataforma Alura.
 
 
 ## 🚀 Tecnologias Utilizadas
+- React
+  
 
 
 ## ⏱️ Iniciar projeto
