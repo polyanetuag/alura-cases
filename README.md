@@ -11,6 +11,7 @@ O projeto consiste em uma campanha para divulgação de um curso na plataforma A
 ## 🚀 Tecnologias Utilizadas
 - React
 - Javascript
+- Next.js
 
   
 
