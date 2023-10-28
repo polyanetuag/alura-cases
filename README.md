@@ -12,8 +12,7 @@ O projeto consiste em uma campanha para divulgação de um curso na plataforma A
 - React
 - Javascript
 - Next.js
-
-  
+- Styled Components
 
 
 ## ⏱️ Iniciar projeto
