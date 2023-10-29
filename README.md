@@ -5,7 +5,8 @@
 </div>
 
 ## 📚 Sobre
-O projeto consiste em uma campanha para divulgação de um curso na plataforma Alura.
+O projeto consiste em uma campanha para divulgação de um curso na plataforma Alura, com foco na tecnologia NEXT.js.
+
 
 
 ## 🚀 Tecnologias Utilizadas
