@@ -7,6 +7,8 @@
 ## 📚 Sobre
 O projeto consiste em uma campanha para divulgação de um curso na plataforma Alura, com foco na tecnologia NEXT.js.
 
+Na prática, foram estudados os métodos SSR e SSA e suas performances.
+
 
 
 ## 🚀 Tecnologias Utilizadas
