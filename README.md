@@ -7,7 +7,7 @@
 ## 📚 Sobre
 O projeto consiste em uma campanha para divulgação de um curso na plataforma Alura, com foco na tecnologia NEXT.js.
 
-Na prática, foram estudados os métodos getStaticProps e getServerSideProps e suas performances no projeto.
+Na prática, foram estudados os métodos getStaticProps e getServerSideProps e suas performances no projeto e um overview ao Google Analytics.
 
 
 
