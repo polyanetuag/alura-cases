@@ -1,7 +1,7 @@
 <h1 align="center">Alura Cases - Campanha Curso Alura </h1>
 
 <div align="center">
-    <img width='800' src="">
+    <img width='800' src="public/images/demoPage.png">
 </div>
 
 ## 📚 Sobre
