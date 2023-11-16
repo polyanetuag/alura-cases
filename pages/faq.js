@@ -1,6 +1,9 @@
-import Link from "../src/components/Link";
+// import Link from "../src/components/Link";
 // import { useState, useEffect } from "react";
-import Head from 'next/head'
+// import Head from 'next/head'
+import FaqScreen from "../src/screens/FaqScreen";
+
+export default FaqScreen;
 
 export async function getStaticProps() {
   const FAQ_API_URL =
@@ -15,30 +18,30 @@ export async function getStaticProps() {
 
   return {
     props: {
-      faq
+      faq,
     },
   };
 }
 
-export default function FaqPage({faq}) {
-  // const [faq, setFaq] = useState([]);
+// export default function FaqPage({faq}) {
+//   // const [faq, setFaq] = useState([]);
 
-  // useEffect(() => {}, []);
-  return (
-    <div>
-       <Head>
-        <title>FAQ - Alura Cases Campanha</title>
-      </Head>
-      <h1>Alura Cases - Página de perguntas FAQ</h1>
-      <Link href="/">Ir para a Home</Link>
-      <ul>
-        {faq.map(({ answer, question }) => (
-          <article>
-            <h2>{question}</h2>
-            <p>{answer}</p>
-          </article>
-        ))}
-      </ul>
-    </div>
-  );
-}
+//   // useEffect(() => {}, []);
+//   return (
+//     <div>
+//        <Head>
+//         <title>FAQ - Alura Cases Campanha</title>
+//       </Head>
+//       <h1>Alura Cases - Página de perguntas FAQ</h1>
+//       <Link href="/">Ir para a Home</Link>
+//       <ul>
+//         {faq.map(({ answer, question }) => (
+//           <article>
+//             <h2>{question}</h2>
+//             <p>{answer}</p>
+//           </article>
+//         ))}
+//       </ul>
+//     </div>
+//   );
+// }
