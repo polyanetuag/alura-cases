@@ -186,5 +186,5 @@ export default function FaqScreen({ faq }) {
 }
 
 FaqScreen.defaultProps = {
-  faqs: [],
+  faq: [],
 };
