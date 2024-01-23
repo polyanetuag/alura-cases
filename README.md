@@ -1,4 +1,4 @@
-<h1 align="center">Alura Cases - Campanha Curso </h1>
+<h1 align="center">Alura Cases - Campanha Curso 📓 </h1>
 
 <div align="center">
     <img width='800' src="public/images/demoPage.png">
