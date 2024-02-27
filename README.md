@@ -7,7 +7,7 @@
 ## 📚 Sobre
 O projeto consiste em uma campanha para divulgação de um curso da plataforma **Alura**, com foco na tecnologia **Next.js**.
 
-Na prática, foram estudados os comportamentos do Next.js, tais como os métodos getStaticProps e getServerSideProps e suas performances aplicadas no projeto como também foi feito um overview sobre como funciona o Google Analytics.
+Na prática, foram estudados os comportamentos do Next.js, tais como os métodos getStaticProps e getServerSideProps e suas performances aplicadas no projeto como também sobre como funciona o Google Analytics.
 
 
 
