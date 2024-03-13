@@ -5,7 +5,7 @@
 </div>
 
 ## 📚 Sobre
-O projeto consiste em uma página de campanha para divulgação de cursos da plataforma **Alura**. 
+O projeto consiste em uma página de campanha para divulgação dos cursos da plataforma **Alura**. 
 
 Na prática, foram estudados os comportamentos do Next.js, tais como os métodos getStaticProps e getServerSideProps e suas performances como também o funcionamento do Google Analytics.
 
